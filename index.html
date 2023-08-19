@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        scroll-snap-type: y mandatory;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      section {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: start;
+      }
+
+      section:nth-child(1) {
+        background-color: rgb(41, 121, 121);
+      }
+
+      section:nth-child(2) {
+        background-color: rgb(45, 45, 68);
+      }
+
+      section:nth-child(3) {
+        background-color: rgb(95, 46, 46);
+      }
+
+      section:nth-child(4) {
+        background-color: rgb(13, 36, 13);
+      }
+    </style>
+  </head>
+  <body>
+    <section>SECTION 1</section>
+    <section>SECTION 2</section>
+    <section>SECTION 3</section>
+    <section>SECTION 4</section>
+  </body>
+</html>
